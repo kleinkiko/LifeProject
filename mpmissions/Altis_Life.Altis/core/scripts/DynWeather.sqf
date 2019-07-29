@@ -8,7 +8,7 @@ if (count _this > 2) then { _initialRain = _this select 2; } else { _initialRain
 if (count _this > 3) then { _initialWind = _this select 3; } else { _initialWind = [-1, -1]; };
 if (count _this > 4) then { _debug = _this select 4; } else { _debug = false; };
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// The following variables can be changed to tweak weather behaviour
+// The following variables can be changed to tweak weather behaviour NICE!
 	// Minimum time in minutes for the weather (fog and overcast) to change. Must be greater than or equal to 1 and less than or equal to
 // _maxWeatherChangeTimeMin. When weather changes, it is fog OR overcast that changes, not both at the same time. (Suggested value: 10).
 _minWeatherChangeTimeMin = 10;
